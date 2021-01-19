@@ -30,11 +30,16 @@ GDC Workflows
    
    * - ISB-CGC Workflow
    * - GDC Case/File Metadata
-   * - GDC Clinical Data
+   * - `GDC Clinical Data <ETL/ETL-GDC_Clinical.html>`_
    * - GDC RNA Seq
    * - GDC Open Somatic Mutation
    
- 
+   
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   
+   ETL/ETL-GDC_Clinical
 
 PDC Workflows
 -------------
