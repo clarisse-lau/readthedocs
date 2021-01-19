@@ -24,11 +24,38 @@ Each workflow is made up of the following files:
 GDC Workflows
 -------------
 
-
+.. list-table::
+   :header-rows: 1 
+   
+   
+   * - ISB-CGC Workflow
+   * - GDC Case/File Metadata
+   * - GDC Clinical Data
+   * - GDC RNA Seq
+   * - GDC Open Somatic Mutation
+   
+ 
 
 PDC Workflows
 -------------
 
+.. list-table::
+   :header-rows: 1 
+   
+   
+   * - ISB-CGC Workflow
+   * - PDC Quant Data
+
+
 
 Other Workflows
 ---------------
+
+.. list-table::
+   :header-rows: 1 
+   
+   
+   * - ISB-CGC Workflow
+   * - GENCODE
+   
+   
