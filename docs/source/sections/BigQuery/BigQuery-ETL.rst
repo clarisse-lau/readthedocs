@@ -21,8 +21,8 @@ Each workflow is made up of the following files:
 - Python files (extracts, transforms, and loads data)
 - shell script file (runs the workflow)
 
-GDC Workflows
--------------
+ISB-CGC Workflows for GDC Data
+------------------------------
 
 .. list-table::
    :header-rows: 1 
@@ -42,7 +42,7 @@ GDC Workflows
    ETL/ETL-GDC_Clinical
    ETL/ETL-GDC_RNA_Seq
 
-PDC Workflows
+ISB-CGC Workflows for PDC Data
 -------------
 
 .. list-table::
@@ -54,7 +54,7 @@ PDC Workflows
 
 
 
-Other Workflows
+ISB-CGC Workflows for Other Data
 ---------------
 
 .. list-table::
