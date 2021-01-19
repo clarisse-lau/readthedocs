@@ -25,6 +25,7 @@ Note that dbGaP authorization is not required to access these tables.
    BigQuery/ISBCGC-BQ-Projects
    progapi/bigqueryGUI/LinkingBigQueryToIsb-cgcProject
    progapi/bigqueryGUI/GettingStartedWithGoogleBigQuery
+   BigQuery/BigQuery-ETL
    BigQuery/VariantDataInBigQuery
    BigQuery/UserDefinedFunctions
    PanCancer-Atlas-Mirror
