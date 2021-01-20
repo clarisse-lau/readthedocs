@@ -24,6 +24,8 @@ Each workflow is made up of the following files:
 ISB-CGC Workflows for GDC Data
 ------------------------------
 
+Detailed information for each ETL workflow for converting GDC data to ISB-CGC Google BigQuery tables can be viewed by clicking on the workflow name.
+
 .. list-table::
    :header-rows: 1 
    
@@ -43,7 +45,9 @@ ISB-CGC Workflows for GDC Data
    ETL/ETL-GDC_RNA_Seq
 
 ISB-CGC Workflows for PDC Data
--------------
+------------------------------
+
+Detailed information for each ETL workflow for converting PDC data to ISB-CGC Google BigQuery tables can be viewed by clicking on the workflow name.
 
 .. list-table::
    :header-rows: 1 
@@ -55,7 +59,9 @@ ISB-CGC Workflows for PDC Data
 
 
 ISB-CGC Workflows for Other Data
----------------
+--------------------------------
+
+Detailed information for each ETL workflow for converting other data to ISB-CGC Google BigQuery tables can be viewed by clicking on the workflow name.
 
 .. list-table::
    :header-rows: 1 
