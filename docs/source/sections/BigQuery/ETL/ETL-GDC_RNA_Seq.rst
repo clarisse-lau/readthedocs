@@ -25,4 +25,5 @@ Overview of the ISB-CGC ETL steps:
 
 ETL Scripts:
 -----------
-* Python: `LINK <https://github.com/isb-cgc/NextGenETL/blob/master/BQ_Table_Building/build_rna_seq_gexp_bq_table.py>`_
+* Python: `build_rna_seq_gexp_bq_table.py <https://github.com/isb-cgc/NextGenETL/blob/master/BQ_Table_Building/build_rna_seq_gexp_bq_table.py>`_
+* Shell Script: `run-gexp.sh <https://github.com/isb-cgc/NextGenETL/blob/master/scripts/run-gexp.sh>`_
