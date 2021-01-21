@@ -5,6 +5,7 @@ The data in the RNAseq_hgXX_gdc_XX tables (example: isb-cgc-bq.BEATAML1_0.RNAseq
 Please visit the GDC documentation for more information on the GDC mRNA Sequencing Pipeline.
 
 Overview of the ISB-CGC ETL steps:
+----------------------------------
 
 1. A list of RNA seq files is created for the RNAseq tables from a table in the  GDC_case_file_metadata_versioned data set
 
@@ -21,3 +22,7 @@ Overview of the ISB-CGC ETL steps:
 6. The expression count tables are merged into one table with each sequencing count type in its own column along with the added extra data
 7. The table schema is updated
 8. The table is then reviewed and published to the isb-cgc-bq project
+
+ETL Scripts:
+-----------
+* Python: `LINK <https://github.com/isb-cgc/NextGenETL/blob/master/BQ_Table_Building/build_rna_seq_gexp_bq_table.py>`_
