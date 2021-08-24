@@ -17,7 +17,7 @@ Please explore the tables at (after registering for access):
 * `isb-cgc-bq.COSMIC <https://console.cloud.google.com/bigquery?p=isb-cgc-bq&d=COSMIC&page=dataset>`_
 * `isb-cgc-bq.COSMIC_versioned <https://console.cloud.google.com/bigquery?p=isb-cgc-bq&d=COSMIC_versioned&page=dataset>`_
 
-*Note: the project isb-cgc contains versions 85-91 except 88 and project isb-cgc-bq contains versions 92*
+*Note: the project isb-cgc contains versions 85-91 except 88 and project isb-cgc-bq contains version 92*
 
 
 Accessing the Catalog Of Somatic Mutations In Cancer Data
