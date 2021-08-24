@@ -2,6 +2,94 @@
 ISB-CGC Web App Release Notes
 #############################
 
+*July 19, 2021* 
+
+- The Warning Notice about accessing a government website that should pop up when ISB-CGC is accessed was missing. It has been reinstated.
+- There was an issue loading the Variable selection page. This has been fixed.
+- On the Create and Edit Variable screens, the data set/programs tabs have been changed to a drop down.
+- In some cases when creating a cohort with multiple programs, the Data Set Clinical Features panel was not displaying the appropriate information. This has been corrected.
+- The system now logs when users refresh their 24 hour access at DCF so that this can be monitored.
+
+
+*June 24, 2021* 
+
+**New Features** 
+
+- The Citations link on the top-level menu has been replaced with a Publications link. The page now includes ISB-CGC publications and posters, as well as citations.
+- Enhance the Cohort Builder UI and Cohort Details UI so that additional node based GDC and PDC Programs can be selected and edited. The Programs now available are:
+
+  - GDC
+  
+    - TCGA
+    - TARGET
+    - CCLE
+    - BEATAML1.0
+    - FM
+    - MMRF
+    - OHSU
+    
+  - PDC
+ 
+    - Georgetown Proteomics (GPRP) 
+- On the Cohort Builder, replace the Selected Filters panel with the Cohort Filters panel. This panel displays all selected filters for all selected Programs.
+
+*April 13, 2021* 
+
+**New Features** 
+
+- On the home page, the title in each box is now clickable and will bring the user to that function. 
+- A Citations link has been added to the top level menu. Papers which reference ISB-CGC are listed.
+- In the Cancer Data File Browser, when viewing a cohort that only has HG19 data, the Build filter will automatically be set to HG19.
+
+**Bug Fixes**
+
+- Fixed the following issues in the Cancer Data File Browser:
+
+   - When selecting Build of HG19 and Data Format of Zip, incorrect results were displayed.
+   - When selecting Build of HG19 and Program of TCGA, the incorrect number of entries was displayed under the File Listing.
+   - When selecting Build of HG19 and Data Format of Raw sequencing data, the number of entries displayed under the File Listing was off by one.
+
+*February 22, 2021* 
+
+**New Features** 
+
+- In the Cohort Builder (via filters), there is a new option to hide filter attributes with zero counts.
+- In the Cancer Data File Browser - Pathology Image Viewer, Pathology Report Viewer and Radiology Image Viewer, login is no longer required.
+- A survey link has been added to the ISB-CGC home page.
+- On the home page, the icons next to the title in each box are now clickable and will bring the user to that function. 
+- Security update.
+
+**Bug Fixes**
+
+- In the Cancer Data File Browser - Radiology Image Viewer, error handing for records with missing disease code or project short name has been added.
+- In the Cancer Data File Browser, the display of the 'Next' button for paginations has been fixed.
+- In the Cohort Builder (via filters), inaccurate filter and sample counts for numeric range type filters (e.g. Age at diagnosis) were corrected.
+
+*December 8, 2020* 
+
+**New Features** 
+
+- In the Cancer Data File Browser, BEATAML1.0 has been added as a choice under filter Program Name. It has also been added to the Cohort Builder/Data Explorer.
+- On the ISB-CGC home page, a Contact Us page has been added under the Help dropdown menu item.
+- On the ISB-CGC home page, a step by step guide called **How to Discover Cancer Data through ISB-CGC** has been added.
+- There is a registration maximum of six programs/datasets to a service account implementation from the DCF.
+- Bootstrap library upgraded from version 3.3.1 to 3.4.1.
+
+**Known Issues**
+
+- Work is underway to rework our cohort creation page to better display images associated with samples.
+- The user data upload feature will return an error message stating, "Error submitting response : Could not connect to data upload server."
+- Analysis Type: Seq peek Formatting is Elongated on occasion.
+- If the user shares a Cohort, neither the owner nor the person who was granted access to the Cohort will receive a confirmation email when sharing a Cohort.
+- CCLE data cannot be plotted when working with workbooks. ISB-CGC will resolve this functionality after the GDC formally releases CCLE data.
+- When a user duplicates a Worksheet, then tries to implement the log scale, it will not function properly.
+- The set operation for existing Cohorts complement is behaving exceptionally slow.
+- The mouse-over feature is currently disabled for program TARGET with disease code ALL.
+- When uploading TARGET files using the cohort barcode creation feature from the GDC, you may get an invalid barcode error message and unable to upload all the barcodes.
+- On the File Browser page for Diagnostic images, there is no GDC file UUID associated with them.
+- Sharing a workbook with someone else will cause the analysis to reset.
+
+
 *August 19, 2020* 
 
 **New Features**  
@@ -213,18 +301,6 @@ The following datasets (open and controlled access) have been added to the ISB-C
  
 **New Features**
  
-- Mitelman Database mirror released on the ISB-CGC.
-
-Please go to `Mitelman Database Chromosome Aberrations and Gene Fusions in Cancer <https://mitelmandatabase.isb-cgc.org/>`_. 
-
-All search databases available listed below.  
-
- - Cases Cytogenetics Searcher
- - Gene Fusions Searcher
- - Clinical Associations Searcher
- - Recurrent Chromosome Aberrations Searcher
- - References Searcher
-
 - ISB-CGC APIs have been updated to a Swagger user interface as well as Google Endpoints OpenAPI, now known as APIsv4.
 
 **Known Issues**

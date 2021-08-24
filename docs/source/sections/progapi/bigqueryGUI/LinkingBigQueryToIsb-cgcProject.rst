@@ -11,7 +11,11 @@ When you access BigQuery from your Google Cloud Platform Console, you will see a
    :align: center
 
 
-When you click on "Pin a Project", you will be presented with a pop-up box that allows you to either enter a project name or to select one from a list. Choose the "Enter a Project Name" and enter in "isb-cgc" and then hit "Pin".
+When you click on "Pin a Project", you will be presented with a pop-up box that allows you to either enter a project name or to select one from a list. Choose the "Enter a Project Name" and enter in "isb-cgc" and then click "Pin".
+
+
+.. note:: If you are have Editor Tabs enabled, the "Pin a Project" options are a little different. When you click on "Add Data", select "Pin a Project" and then "Enter Project Name" from the menu. Then enter the project name in the pop-up box and click "Pin".
+
 
 
 .. image:: PinAProject.png

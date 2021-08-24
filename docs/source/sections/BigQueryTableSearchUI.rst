@@ -11,7 +11,7 @@ The ISB-CGC BigQuery Table Search UI (`<https://isb-cgc.appspot.com/bq_meta_sear
 
 
 
-Currently, ISB-CGC hosts over 300 open access BigQuery tables. Each table has been curated to include detailed table and field descriptions as well as table labels allowing users to search for BigQuery tables of interest using a free-form text search or via available filters. 
+Currently, ISB-CGC hosts open access BigQuery tables containing data for over 25 research programs and for over 15 data types. Each table has been curated to include detailed table and field descriptions as well as table labels allowing users to search for BigQuery tables of interest using a free-form text search or via available filters. 
 
 
 .. image:: BigQuery/BigQueryTableSearch-UI-homepage.png
@@ -125,7 +125,7 @@ The **Access** filter has options of All, Open Access and Controlled Access. Con
 
 **More Filters**
 
-The **Show More Filters** button can be used to display **Dataset ID**, **Table ID**, **Table Description**, **Labels** and **Field Name** filters. These are free-form text fields; the user can type all or a portion of the name into the field to perform the query. For instance, for all datasets which have "alpha" in the name, type "alpha" into the field.
+The **Show More Filters** button can be used to display **BQ Project**, **BQ Dataset**, **BQ Table**, **Table Description**, **Labels** and **Field Name** filters. Except for BQ Project, these are free-form text fields; the user can type all or a portion of the name into the field to perform the query. For instance, for all datasets which have "alpha" in the name, type "alpha" into the field.
 
 These fields are most useful for users already familiar with the BigQuery tables.
 
@@ -146,7 +146,7 @@ Click on the column header to sort the displayed results by that column.
 
 **Columns Selector**
 
-Columns can be added or removed from the display by using the Columns selector. For instance, the Dataset ID and Table ID are not initially displayed, but they can be added to the display.
+Columns can be added or removed from the display by using the Columns selector. For instance, the Bq Project, BQ Dataset and BQ Table are not initially displayed, but they can be added to the display.
 
 .. image:: BigQuery/BigQueryTableSearch-ColumnSelector.png
    :align: center
@@ -171,7 +171,7 @@ The following information is displayed:
 
    * **Full ID** - This is the Project, Dataset ID, and Table ID concatenated with periods between them. The Full ID is used in SQL queries.
    * **Dataset ID** - The BigQuery dataset of the table. A data set is a group of related tables.
-   * **Table ID** - The BiqQuery table ID.
+   * **Table ID** - The BigQuery table ID.
    * **Description** - A description of the table, which includes information such as how the data was created, its source, data type, and contents.
    * **Schema** - The schema displays the Field Name, Type, Mode and Field Description for each field in the table.
    * **Labels** - Labels are table metadata describing the source, data type, reference genome build, status, and access of the table data.
@@ -179,7 +179,7 @@ The following information is displayed:
 
 **Copy button**
 
-Next to the Full ID is a **Copy** button. When the user clicks this, the Full ID is copied to the clipboard. The Full ID can then be pasted into an SQL query within the BiqQuery Query editor.
+Next to the Full ID is a **Copy** button. When the user clicks this, the Full ID is copied to the clipboard. The Full ID can then be pasted into an SQL query within the BigQuery Query editor.
 
 **Open button**
 
