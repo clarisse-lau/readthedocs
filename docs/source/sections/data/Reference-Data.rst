@@ -12,12 +12,7 @@ For additional details about the ISB-CGC tables, please use the `BigQuery Table 
 Genome Reference Data
 =====================
 
-Reference data that describes or annotates the human or other genomes is described in this section.  
-Reference data hosted by the ISB-CGC in BigQuery tables are available in the ``isb-cgc.genome_reference`` 
-`data set <https://console.cloud.google.com/bigquery?p=isb-cgc&d=genome_reference&page=dataset>`_.  Tables based on 
-gene-sets such as Ensembl and GENCODE can be used to find the genomic coordinates and identifiers
-for genes of interest, to perform queries that join tables with gene-symbol based data
-to tables with genomic-coordinate based data or tables that use other gene identifiers, for example.
+Genome reference data that describes or annotates the human or other genomes. Gene set tables, such as Ensembl and GENCODE, can help find the genomic coordinates and identifiers for genes of interest. For example, to perform queries that join tables with gene-symbol-based data to tables with genomic-coordinate-based data or tables that use other gene identifiers.
     
 .. list-table::
    :header-rows: 1 
