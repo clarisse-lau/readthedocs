@@ -18,55 +18,72 @@ Genome reference data that describes or annotates the human or other genomes. Ge
    :header-rows: 1 
    
    * - Program/Source
+     - BQ Project
      - Description
    * - ClinVar
+     - isb-cgc
      - * `ClinVar <https://www.ncbi.nlm.nih.gov/clinvar/intro/>`_ contains reports of the relationships among human variations and phenotypes.
        * GRCh37
        * GRCh38
-   * - Cytoband/UCSC  
+   * - Cytoband/UCSC
+     - isb-cgc
      - * Cytoband to Genomic Coordinate Conversion
        * liftOver_hg19_to_hg38 - This table provides a mapping of each hg19 position to the corresponding position in hg38, and can be used to perform a liftOver_ operation in BigQuery.
    * - dbSNP
+     - isb-cgc
      - * `dbSNP <https://www.ncbi.nlm.nih.gov/snp/>`_ contains human single nucleotide variations, microsatellites, and small-scale insertions and deletions along with publication, population frequency, molecular consequence, and genomic and RefSeq mapping information for both common variations and clinical mutations
        * B150 GRCH37P13
        * B151 GRCH37P13
    * - Ensembl
+     - isb-cgc
      - * GRCh37: Release 75, the final build of the Ensembl_ gene-set mapped to GRCh37
        * GRCh38: Release 87, the most recent Ensembl_ gene-set mapped to GRCh38
    * - GENCODE
+     - isb-cgc
      - * GRCh37: Release 19, the final build of the GENCODE_ gene-set mapped to GRCH37
        * GRCh38: Releases 22, 23, and 24 from GENCODE_ are all available (because the TCGA data has been reprocessed by at least one center using each of these three different releases) 
    * - Gene Ontology Consortium
+     - isb-cgc
      - * Tables based on GO_ annotations and the GO_ ontology.
    * - Genome-Wide SNP Array
+     - isb-cgc
      - * The technical documentation for the Affymetrix Genome-Wide Human SNP Array 6.0 array can be found `here <http://www.affymetrix.com/catalog/131533/AFFY/Genome-Wide+Human+SNP+Array+6.0#1_3>`_.
-   * - gnomAD  
+   * - gnomAD
+     - isb-cgc
      - * `gnomAD <https://gnomad.broadinstitute.org/>`_ aggregates and harmonizes both exome and genome sequencing data from a wide variety of large-scale sequencing projects.
        * GRCH37
    * - ICD
+     - isb-cgc
      - * `International Classification of Diseases <https://www.who.int/classifications/icd/en/>`_
        * ICD-10 Chapters
        * ICD-10 Codes
        * ICD-O-3 Morphology
        * ICD-O-3 Site
-   * - Infinium   
+   * - Infinium 
+     - isb-cgc
      - * Infinium EPIC HG19 and HG38 Manifests
        * Infinium HM27 HG19 and HG38 Manifests
        * Infinium HM450 HG19 and HG38 Manifests
    * - ISB-CGC
+     - isb-cgc
      - * Gene Names Mapping: Data was loaded from multiple sources including NCBI, HGNC, ENSEMBL in Feb 2018 to simplify mapping between HGNC IDs, HGNC symbols, Entrez Gene IDs, Ensembl Gene IDs, Pubmed IDs,and RefSeq IDs.
    * - Kaviar
+     - isb-cgc
      - * The latest hg19- and hg38-based Kaviar_ databases are available.  Kaviar_ is a compilation of SNVs, indels, and complex variants observed in humans, designed to facilitate testing for the novelty and frequency of observed variants.
    * - miRBase
+     - isb-cgc
      - * GRCh37: The human portion of version 20 of the miRBase_ database; including genomic coordinates for human microRNAs.  
        * GRCh38: The human portion of version 21 of the miRBase_ database; including genomic coordinates for human microRNAs.
        * GRCh38: The human portion of version 22 of the miRBase_ database; including genomic coordinates for human microRNAs.
    * - miRTarBase
+     - isb-cgc
      - * The updated miRTarBase_ database (release 6.1)
    * - Reactome
+     - isb-cgc
      - * Ensembl2Reactome
        * miRBase2Reactome
    * - UniProtKB
+     - isb-cgc
      - * `UniProtKB <https://www.uniprot.org/help/uniprotkb>`_ is the central hub for the collection of functional information on proteins, with accurate, consistent and rich annotation.
        * UniProtKB Mapping
        
