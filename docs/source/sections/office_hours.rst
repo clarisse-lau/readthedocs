@@ -1,14 +1,26 @@
 ISB-CGC Office Hours
 -------------------
 
-Need assistance with getting started? Questions on merging your research with the cloud? Or possibly help with troubleshooting?
+Do you need assistance with getting started? Questions on merging your research with cancer data in the cloud? Or possibly help with troubleshooting?
 
 We have **virtual Office Hours on Tuesdays and Thursdays** for any questions or discussions you may have. We look forward to speaking with you.
 
-**Tuesday 2:00 – 3:00pm Eastern**
-Hosted By: Poojitha Gundluru
-Link: https://meet.google.com/jkg-cxke-yzs
 
-**Thursdays 11:00am – 12:00pm Eastern**
-Hosted By: John Phan
-Link: https://meet.google.com/jai-kgkg-sii
+.. list-table:: 
+  :header-rows: 1 
+  :stub-columns: 1
+
+
+  * - Day of the Week
+    - Time
+    - Host
+    - Link
+  * - Tuesday 
+    - 2:00 – 3:00pm Eastern
+    - Poojitha Gundluru
+    - https://meet.google.com/jkg-cxke-yzs
+
+  * - Thursdays
+    - 11:00am – 12:00pm Eastern
+    - John Phan
+    - https://meet.google.com/jai-kgkg-sii
