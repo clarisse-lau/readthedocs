@@ -3,7 +3,7 @@ ISB-CGC Office Hours
 
 Do you need assistance with getting started? Questions on merging your research with cancer data in the cloud? Or possibly help with troubleshooting?
 
-We have **virtual Office Hours on Tuesdays and Thursdays** for any questions or discussions you may have. We look forward to speaking with you.
+We have **virtual Office Hours on Tuesdays and Thursdays** for any questions you may have on ISB-CGC functionality or data that you may have. We look forward to speaking with you.
 
 
 .. list-table:: 
