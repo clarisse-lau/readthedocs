@@ -8,7 +8,6 @@ We have **virtual Office Hours on Tuesdays and Thursdays** for any questions you
 
 .. list-table:: 
   :header-rows: 1 
-  :stub-columns: 1
 
 
   * - Day of the Week
