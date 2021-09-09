@@ -14,7 +14,7 @@ We have **virtual Office Hours on Tuesdays and Thursdays** for any questions you
     - Time
     - Host
     - Link
-  * - Tuesday 
+  * - Tuesdays
     - 2:00 – 3:00pm Eastern
     - Poojitha Gundluru
     - https://meet.google.com/jkg-cxke-yzs
