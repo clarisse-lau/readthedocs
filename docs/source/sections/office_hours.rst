@@ -15,11 +15,11 @@ We have **virtual Office Hours on Tuesdays and Thursdays** for any questions on 
     - Host
     - Link
   * - Tuesday
-    - 2:00 – 3:00pm Eastern
+    - 2:00pm – 3:00pm Eastern
     - Poojitha Gundluru
-    - https://meet.google.com/jkg-cxke-yzs
+    - meet.google.com/jkg-cxke-yzs
 
   * - Thursday
     - 11:00am – 12:00pm Eastern
     - John Phan
-    - https://meet.google.com/jai-kgkg-sii
+    - meet.google.com/jai-kgkg-sii
